@@ -12,7 +12,7 @@ build-stamp:
 	dh_testdir
 
 	# Add here commands to compile the package.
-	#$(MAKE)
+	# MAKE
 
 	touch build-stamp
 
@@ -22,8 +22,8 @@ clean:
 	rm -f build-stamp
 
 	# Add here commands to clean up after the build process.
-	#$(MAKE) clean
-	#$(MAKE) distclean
+	# MAKE clean
+	# MAKE distclean
 
 	dh_clean
 
@@ -33,14 +33,18 @@ install: build
 	dh_prep
 	dh_installdirs
 	dh_install
+
 	# Create languages directories
 	mkdir -p ${CURDIR}/debian/webcam-indicator/usr/share/locale-langpack/es/LC_MESSAGES
+	mkdir -p ${CURDIR}/debian/webcam-indicator/usr/share/locale-langpack/it/LC_MESSAGES
 	# End create languages directories
 	# Compile languages
 	msgfmt po/es.po -o ${CURDIR}/debian/webcam-indicator/usr/share/locale-langpack/es/LC_MESSAGES/webcam-indicator.mo
+	msgfmt po/it.po -o ${CURDIR}/debian/webcam-indicator/usr/share/locale-langpack/it/LC_MESSAGES/webcam-indicator.mo
 	# End comile languages
-	# Add here commands to install the package into debian/<packagename>.
-	#$(MAKE) prefix=`pwd`/debian/`dh_listpackages`/usr install
+
+  # Add here commands to install the package into debian/<packagename>.
+	# MAKE prefix=/datos/programacion/python/webcam-indicator/debian/webcam-indicator/usr install
 
 # Build architecture-independent files here.
 binary-indep: build install
@@ -84,3 +88,4 @@ binary-arch: build install
 
 binary: binary-indep binary-arch
 .PHONY: build clean binary-indep binary-arch binary install
+

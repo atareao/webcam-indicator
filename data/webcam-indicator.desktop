@@ -1,0 +1,17 @@
+[Desktop Entry]
+Name = Webcam Indicator
+GenericName = Webcam Indicator
+Comment = Webcam Indicator
+Exec = /usr/share/webcam-indicator/bin/webcam-indicator
+Icon = webcam-indicator
+Type = Application
+Terminal = false
+StartupNotify = true
+Encoding = utf-8
+Categories = Utility;
+Name[en_GB] = Webcam Indicator
+Name[es] = Webcam Indicator
+GenericName[en_GB] = Webcam Indicator
+GenericName[es] = Webcam Indicator
+Comment[en_GB] = Manage your webcam
+Comment[es] = Gestiona tu webcam
