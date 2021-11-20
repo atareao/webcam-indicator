@@ -1,0 +1,22 @@
+Source: webcam-indicator
+Section: utils
+Priority: extra
+Maintainer: Lorenzo Carbonell Cerezo <lorenzo.carbonell.cerezo@gmail.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Homepage: http://atareao.es
+
+Package: webcam-indicator
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends},
+    python3,
+    python3-gi,
+    gir1.2-gtk-3.0,
+    gir1.2-glib-2.0,
+    gir1.2-gdkpixbuf-2.0,
+    gir1.2-appindicator3-0.1,
+    gir1.2-notify-0.7,
+    v4l-utils
+Description: Info about auto focus and manage webcam
+ Webcam Indicator is an application to manage webcam and set configuration as
+ brightness, contrast, focus or zoom. It shows you if auto focus is on.

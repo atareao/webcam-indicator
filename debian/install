@@ -1,0 +1,7 @@
+bin usr
+debian/changelog usr/share/webcam-indicator
+src/*.py usr/share/webcam-indicator
+data/icons usr/share
+data/autostart usr/share
+data/webcam-indicator.desktop /usr/share/applications
+data/icons/webcam-indicator.svg /usr/share/icons/hicolor/scalable/apps
