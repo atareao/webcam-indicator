@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Exec=/usr/bin/webcam-indicator
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[es_ES]=webcam-indicator-autostart
+Name=webcam-indicator-autostart
+Comment[es_ES]=webcam-indicator official shortcut
+Comment=webcam-indicator official shortcut
+X-GNOME-Autostart-Delay=15

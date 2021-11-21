@@ -27,12 +27,8 @@ import os
 import sys
 
 if __name__ == '__main__':
-    if __file__.startswith('/usr/share/webcam-indicator') or\
-            os.getcwd().startswith(
-                '/usr/share/webcam-indicator'):
-        sys.path.insert(
-            1,
-            '/usr/share/webcam-indicator')
+    if __file__.startswith('/usr') or os.getcwd().startswith('/usr'):
+        sys.path.insert(1, '/usr/share/webcam-indicator')
     else:
         sys.path.insert(1, os.path.normpath(
             os.path.join(os.path.dirname(__file__), '../src')))

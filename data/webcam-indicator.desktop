@@ -2,7 +2,7 @@
 Name = Webcam Indicator
 GenericName = Webcam Indicator
 Comment = Webcam Indicator
-Exec = /usr/share/webcam-indicator/bin/webcam-indicator
+Exec = /usr/bin/webcam-indicator
 Icon = webcam-indicator
 Type = Application
 Terminal = false
