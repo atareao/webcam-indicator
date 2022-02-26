@@ -1,0 +1,141 @@
+# Language * translations for habits package.
+# Copyright (C) 2019 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the habits package.
+# Lorenzo <lorenzo.carbonell.cerezo@gmail.com>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: habits - 0.1.0-0extras19.10.11\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-20 09:54+0100\n"
+"PO-Revision-Date: 2022-02-26 20:40+0100\n"
+"Last-Translator: Heimen Stoffels <vistausss@fastmail.com>\n"
+"Language-Team: \n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#: src/indicator.py:114 src/preferences.py:64
+msgid "Preferences"
+msgstr "Voorkeuren"
+
+#: src/indicator.py:118
+msgid "Help"
+msgstr "Hulp"
+
+#: src/indicator.py:124
+msgid "Quit"
+msgstr "Afsluiten"
+
+#: src/indicator.py:147
+msgid "Homepage"
+msgstr "Website"
+
+#: src/indicator.py:154
+msgid "Get help online..."
+msgstr "Hulppagina openen…"
+
+#: src/indicator.py:162
+msgid "Translate this application..."
+msgstr "Helpen met vertalen…"
+
+#: src/indicator.py:169
+msgid "Report a bug..."
+msgstr "Probleem melden…"
+
+#: src/indicator.py:178
+msgid "Found me in Twitter"
+msgstr "Volg me op Twitter"
+
+#: src/indicator.py:184
+msgid "Found me in GitHub"
+msgstr "Volg me op GitHub"
+
+#: src/indicator.py:190
+msgid "Found me in Mastodon"
+msgstr "Volg me op Mastodon"
+
+#: src/indicator.py:196
+msgid "About"
+msgstr "Over"
+
+#: src/indicator.py:210
+msgid "Webcam Indicator"
+msgstr "Webcam-indicator"
+
+#: src/preferences.py:54
+msgid "Auto focus"
+msgstr "Automatisch focussen"
+
+#: src/preferences.py:57
+msgid "Focus"
+msgstr "Focussen"
+
+#: src/preferences.py:58
+msgid "Brightness"
+msgstr "Helderheid"
+
+#: src/preferences.py:59
+msgid "Contrast"
+msgstr "Contrast"
+
+#: src/preferences.py:60
+msgid "Staturation"
+msgstr "Verzadiging"
+
+#: src/preferences.py:61
+msgid "Sharpness"
+msgstr "Scherpte"
+
+#: src/preferences.py:62
+msgid "Zoom"
+msgstr "Zoomniveau"
+
+#: src/preferences.py:83
+msgid "General"
+msgstr "Algemeen"
+
+#: src/preferences.py:167
+msgid "Theme light:"
+msgstr "Licht thema:"
+
+#: src/preferences.py:172
+msgid "Autostart:"
+msgstr "Automatisch opstarten:"
+
+#: src/preferences.py:177
+msgid "Debug:"
+msgstr "Foutopsporing:"
+
+#~ msgid "HTTPS Protocol:"
+#~ msgstr "Protocolo HTTPS:"
+
+#~ msgid "Base url (without protocol):"
+#~ msgstr "URL base (sin protocolo)"
+
+#~ msgid "App Gotify key:"
+#~ msgstr "Clave de la App Gotify:"
+
+#~ msgid "Client Gotify key:"
+#~ msgstr "Clave del cliente Gotify:"
+
+#~ msgid "App Id"
+#~ msgstr "Número de la App Gotify:"
+
+#~ msgid "Stop service"
+#~ msgstr "Detener servicio"
+
+#~ msgid "Send message"
+#~ msgstr "Enviar mensaje"
+
+#~ msgid "Start service"
+#~ msgstr "Inciar servicio"
+
+#~ msgid "Please configure Gotify Indicator"
+#~ msgstr "Por favor configura Gotify Indicator"
+
+#~ msgid "Message:"
+#~ msgstr "Mensaje:"
